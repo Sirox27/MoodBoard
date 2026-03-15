@@ -1,0 +1,12 @@
+.button {
+    background-color: transparent;
+    border: none;
+}
+
+.button_img {
+    width: 250px;
+}
+
+.button_img:hover {
+    filter: brightness(90%);
+}
