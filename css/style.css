@@ -1,7 +1,15 @@
+body {
+    margin: 0 20%;
+}
+
+p {
+    text-align: center;
+}
+
 .button {
     background-color: transparent;
     border: none;
-    margin: 20px;
+    cursor: pointer;
 }
 
 .button {
@@ -21,4 +29,19 @@
 .button:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+.sound-board {
+    display: flex;       /* Enables flexbox */
+    flex-wrap: wrap;     /* Allows items to move to the next row */
+    gap: 20px;           /* Adds space between the items */
+    justify-content: center; /* Centers the grid on the page */
+    padding: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack button on top of text */
+    align-items: center;    /* Center them horizontally relative to each other */
+    width: 100px;           /* Give them a consistent width */
 }
