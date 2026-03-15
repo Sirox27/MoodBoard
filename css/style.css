@@ -1,12 +1,24 @@
 .button {
     background-color: transparent;
     border: none;
+    margin: 20px;
 }
 
-.button_img {
-    width: 250px;
+.button {
+  display: inline-block;
+  padding: 50px 50px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #c72816;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 0 9px #999;
 }
 
-.button_img:hover {
-    filter: brightness(90%);
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
